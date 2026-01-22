@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Voting Result</title>
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">Voting Result</h1>
+    <div class="result-box">
+      <div class="yes">YES {{ "%.1f" % yes }}%</div>
+      <div class="no">NO {{ "%.1f" % no }}%</div>
+    </div>
+    <form method="GET" action="/">
+      <button type="submit" class="btn-refresh">Refresh</button>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #007bff; /* Blue background */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  background: #fff;
+  color: #000;
+  display: inline-block;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin: 20px;
+}
+
+.btn {
+  padding: 15px 40px;
+  font-size: 1.2em;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-yes {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-no {
+  background-color: #20c997;
+  color: white;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #333; /* softer dark gray text for visibility */
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Voting Application</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+</head>
+<body>
+  <main class="container">
+    <!-- White card wrapper for Cats/Dogs style -->
+    <section class="card">
+      <!-- Title -->
+      <h1 class="title">Voting Application</h1>
+
+      <!-- Voting Buttons -->
+      <form method="POST" action="/vote" class="buttons">
+        <button type="submit" name="vote" value="YES" class="btn btn-yes">YES</button>
+        <button type="submit" name="vote" value="NO" class="btn btn-no">NO</button>
+      </form>
+
+      <!-- Tip -->
+      <p>(Tip: you can change your vote)</p>
+
+      <!-- Footer -->
+      <div class="footer">
+        This application demonstrates multi-container orchestration using Docker Compose<br>
+        Author: Saad Mazhurul - System Administrator
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #007bff;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.result-box {
+  background: #fff;
+  color: #000;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.result-box .yes {
+  color: #007bff;
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+.result-box .no {
+  color: #20c997;
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+.btn-refresh {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
+  background: #20c997;
+  color: #fff;
+  cursor: pointer;
+}
