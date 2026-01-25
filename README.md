@@ -10,8 +10,7 @@ This project demonstrates **multi-container orchestration** with frontend, backe
 ### 🖥️ Voting UI (Flask)
 - Title: **YES vs NO!**
 - Two buttons: **YES** and **NO**
-- Footer: *This application demonstrates multi-container orchestration using Docker Compose
-  Author: Saad Mazhurul - System Administrator*
+- Footer: *Write Footer Message*
 - Tip shown to users: *You can change your vote*
 
 ### 📊 Result UI (Flask)
@@ -105,6 +104,13 @@ docker-compose up --build -d
 ### 3️⃣ Access the applications
 - **Voting UI:** http://localhost:5000  
 - **Result UI:** http://localhost:5001  
+
+---
+
+## 📸 Project Output
+
+![Frontend UI - Vote](images/vote.png)
+![Frontend UI - Result](images/result.png)
 
 ---
 
