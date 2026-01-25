@@ -33,7 +33,33 @@ This project demonstrates **multi-container orchestration** with frontend, backe
 
 ## 🏗️ Architecture & Project Structure
 
-![Voting App Architecture](images/folder-structure.png)
+```text
+Voting-App/
+├── docker-compose.yml
+├── .env
+├── vote/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   ├── app.py
+│   ├── templates/
+│   │   └── index.html
+│   └── static/
+│       └── style.css
+├── result/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   ├── app.py
+│   ├── templates/
+│   │   └── result.html
+│   └── static/
+│       └── style.css
+├── worker/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── worker.py
+└── db/
+    └── init.sql
+```
 
 ## 🏗️ Architecture Diagram
 
@@ -69,15 +95,11 @@ This project demonstrates **multi-container orchestration** with frontend, backe
 git clone https://github.com/saadmazhq/Voting-App.git
 cd Voting-App
 ```
-![repository-clone](git-clone.png)
-![repository-check](images/check-file.png)
 
 ### 2️⃣ Build and start containers
 ```bash
 docker-compose up --build -d
 ```
-![docker-compose](images/docker-compose.png)
-![docker-check](images/docker-check.png)
 
 ### 3️⃣ Access the applications
 - **Voting UI:** http://localhost:5000  
@@ -87,8 +109,8 @@ docker-compose up --build -d
 
 ## 📸 Project Output
 
-![Frontend UI-Vote](images/vote.png)
-![Frontend UI-Result](images/result.png)
+![Frontend UI - Vote](images/vote.png)
+![Frontend UI - Result](images/result.png)
 
 ---
 
